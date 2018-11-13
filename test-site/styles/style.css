@@ -1,0 +1,39 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Playfair+Display:400,700');
+
+body {
+  background-color: #e8eae5;
+  font-family: 'PT Sans Narrow', sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #05a3dd;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  color: #0c93c4;
+  margin: 0;
+  padding: 20px 0;    
+  text-shadow: 3px 3px 1px black;
+}
+h3
+{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 32px;
+  color: #050c60;
+  text-shadow: 2px 2px 5px white;
+}
+p, li {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
