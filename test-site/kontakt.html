@@ -1,0 +1,79 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt Kuba - by Kathi</title>
+  <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <div style="background-image: url('images/cuba.jpg'); height: 400px; background-size: cover;">
+      <div style="width: 100%">
+        <div style="width: 20%; float: left;">
+          <ul>
+            <li><h3><a href="index.html">Home</a></h3></li>
+            <li><h3><a href="geschichte-kuba.html">Geschichte</a></h3></li>
+            <li><h3><a href="videos-kuba.html">Video-Galerie</a></h3></li>
+            <li><h3><a href="kontakt.html">Kontakt</a></h3></li>
+          </ul>
+       </div>
+        <div style="width: 80%; float: left;">
+        </div>
+      </div>
+    </div>
+</head>
+
+<body>
+  <h1>Du willst jetzt auch nach Kuba?</h1>
+  <p>
+  <h2>Schreib mir jetzt gleich!</h2></p>
+     <form action="mailto:kathi.karnig@gmail.com" method="get">
+    <label for="first-name">Vorname</label>
+    <input id="first-name" type="text" name="firstname" required><br>
+    <p>
+    <label for="last-name">Nachname</label>
+    <input id="last-name" type="text" name="lastname"required></p>
+    <p>
+    <label for="number">Telefonnummer</label>
+    <input id="number" type="text" name="number"required></p>
+    <p>
+    <label for="email">E-Mail Adresse</label>
+    <input id="email" type="text" name="email"required></p>
+    <p>
+    <input type="submit" value="Absenden"></p>
+  </form>
+  
+  <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/slider-1-kuba.jpg" style="width:100%">
+    <div class="text">Kuba</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/slider-2-kuba.jpg" style="width:100%">
+    <div class="text">Havana</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/slider-3-kuba.jpg" style="width:100%">
+    <div class="text">Cuba</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
